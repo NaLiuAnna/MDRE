@@ -84,7 +84,7 @@ To detect character-level adversarial examples using MDRE on the MultiNLI datase
 
 ### Citation
 
-If you find this MDRE helpful, please cite our paper:
+If you find MDRE helpful, please cite our paper:
 ```
 @inproceedings{liu-etal-2022-detecting,
     title = "Detecting Textual Adversarial Examples Based on Distributional Characteristics of Data Representations",
