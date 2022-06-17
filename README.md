@@ -1,5 +1,5 @@
 ### About The Project
-Source code for the paper: Detecting Textual Adversarial Examples Based on Distributional Characteristics of Data Representations.
+Source code for the paper: [Detecting Textual Adversarial Examples Based on Distributional Characteristics of Data Representations](https://arxiv.org/abs/2204.13853).
 
 Requirements:
 * numpy(1.19.5)
@@ -81,3 +81,23 @@ To detect character-level adversarial examples using MDRE on the IMDB dataset, p
 To detect character-level adversarial examples using MDRE on the MultiNLI dataset, please run:
 
 `python detect.py --dataset-name Mnli --dataset-path ./data/multinli_1.0 --attack-class typo --max-length 256 --batch-size 32 --detect mdre`
+
+### Citation
+
+If you find this MDRE helpful, please cite our paper:
+```
+@inproceedings{liu-etal-2022-detecting,
+    title = "Detecting Textual Adversarial Examples Based on Distributional Characteristics of Data Representations",
+    author = "Liu, Na  and
+      Dras, Mark  and
+      Emma Zhang, Wei",
+    booktitle = "Proceedings of the 7th Workshop on Representation Learning for NLP",
+    month = may,
+    year = "2022",
+    address = "Dublin, Ireland",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.repl4nlp-1.9",
+    doi = "10.18653/v1/2022.repl4nlp-1.9",
+    pages = "78--90",
+}
+```
